@@ -28,6 +28,16 @@ h1 {
   color: var(--dark);
 }
 
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 0.2rem;
+}
 ul {
   list-style: none;
 }
@@ -60,11 +70,6 @@ main {
 .screen-shots {
   margin: 0.5rem 0;
   border: 0.5rem solid var(--dark);
-}
-
-.screen-shots h2 {
-  text-align: center;
-  font-size: 2rem;
 }
 
 .primary-project {
