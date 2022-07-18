@@ -1,0 +1,16 @@
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (min-width: 768px) {
+  .screen-shots {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
