@@ -17,9 +17,9 @@ body {
   background-color: var(--pale);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  width: 96vw;
+  width: 92vw;
   margin: 0.5rem;
   padding: 0.5rem;
 }
@@ -31,14 +31,16 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  padding: 0.5rem;
 }
 
 h3 {
   text-align: center;
   font-size: 1.25rem;
-  padding: 0.25rem;
+  padding: 0.5rem;
 }
+
 ul {
   list-style: none;
 }
@@ -52,15 +54,17 @@ header {
 }
 
 main {
-  height: 120%;
+  height: fit-content;
 }
 
+/* Navigation bar*/
 .nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+  background-color: var(--light);
 }
 
 .nav-bar-item {
@@ -68,6 +72,7 @@ main {
   color: var(--light);
 }
 
+/* Projects */
 .screen-shots {
   margin: 0.5rem 0;
   border: 0.5rem solid var(--dark);
@@ -80,7 +85,7 @@ main {
   justify-content: center;
   border: 0.2rem solid var(--dark);
   padding: 0.5rem;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .other-projects {
@@ -108,10 +113,11 @@ img {
   max-height: 15rem;
 }
 
+/* Bio pic & blurb */
 .about-me {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   border: 0.5rem solid var(--dark);
   align-self: center;
@@ -127,17 +133,21 @@ img {
   font-size: 1.5rem;
 }
 
-footer {
-  margin: 1rem;
-}
-
+/* contact links */
 .contact-bar {
   display: flex;
   flex-direction: row;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: var(--light);
 }
 
 .contact-bar-item {
   margin: 2rem;
   font-weight: bolder;
   font-size: 1rem;
+}
+
+footer {
+  margin: 1rem;
 }
