@@ -12,6 +12,8 @@ Flexbox
 
 Internal and external links
 
+CSS variables
+
 Add Alt attributes to images and icons
 
 Responsive design
