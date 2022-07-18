@@ -20,7 +20,7 @@ Phone and email links
 
 ### Screenshot
 
-![App Screenshot](https://bp4924.github.io/BP-Portfolio/Assets/images/deployed-ss.jpg)
+![App Screenshot](https://bp4924.github.io/BP-Portfolio/Assets/images/deployed-ss2.jpg)
 
 ## Link
 https://bp4924.github.io/BP-Portfolio/
