@@ -158,8 +158,9 @@ img {
   align-items: center;
 }
 
-.contact-bar-item {
+.contact-bar h3 {
   margin: 1rem;
+  font-size: x-large;
   font-weight: bolder;
 }
 
